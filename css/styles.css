@@ -274,6 +274,8 @@ img {
 .team-list-item {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .desc {
@@ -377,7 +379,9 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item:hover .overlay {
+
+.portfolio-list-item:hover .overlay,
+.card-desc:hover {
   transform: translatey(0);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -417,6 +421,11 @@ img {
   max-width: 1440px;
 }
 
+.footer-container {
+  display: flex;
+  gap: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -441,4 +450,24 @@ img {
   color: #f4f4fd;
   width: 264px;
   height: 72px;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.social-item-wrap {
+  display: block;
 }
