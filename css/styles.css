@@ -43,6 +43,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+
 }
 
 .header-container {
@@ -147,7 +148,7 @@ img {
 }
 
 .main-section {
-  max-width: 1440px;
+
   background-color: #2E2F42;
   padding: 188px 0px;
   margin: 0 auto;
@@ -260,7 +261,7 @@ img {
   background-color: #F4F4FD;
   margin: 0 auto;
   padding: 120px 0;
-  max-width: 1440px;
+
 }
 
 .team-title {
@@ -434,7 +435,7 @@ img {
   padding: 100px 0;
   background-color: #2E2F42;
   margin: 0 auto;
-  max-width: 1440px;
+
 }
 
 .footer-container {
